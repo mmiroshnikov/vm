@@ -6,6 +6,7 @@ import Project from '../components/project'
 import SEO from '../components/seo'
 import Layout from '../containers/layout'
 
+
 export const query = graphql`
   query ProjectTemplateQuery($id: String!) {
     sampleProject: sanitySampleProject(id: {eq: $id}) {
