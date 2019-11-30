@@ -17,10 +17,10 @@ export default () =>
             .documentId('siteSettings')
         )
         .icon(MdSettings),
-      S.listItem()
-        .title('Sample projects')
-        .schemaType('sampleProject')
-        .child(S.documentTypeList('sampleProject').title('Sample projects')),
+      // S.listItem()
+      //   .title('Sample projects')
+      //   .schemaType('sampleProject')
+      //   .child(S.documentTypeList('sampleProject').title('Sample projects')),
       S.listItem()
         .title('Poems')
         .schemaType('poem')
@@ -36,5 +36,5 @@ export default () =>
       // This returns an array of all the document types
       // defined in schema.js. We filter out those that we have
       // defined the structure above
-      ...S.documentTypeListItems().filter(hiddenDocTypes)
+      // ...S.documentTypeListItems().filter(hiddenDocTypes)
     ])

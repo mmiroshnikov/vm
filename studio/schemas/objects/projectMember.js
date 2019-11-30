@@ -9,21 +9,21 @@ export default {
       type: 'reference',
       to: {type: 'person'}
     },
-    {
-      title: 'Roles',
-      name: 'roles',
-      type: 'array',
-      of: [{type: 'string'}],
-      options: {
-        layout: 'radio',
-        list: [
-          {title: 'Designer', value: 'designer'},
-          {title: 'Developer', value: 'developer'},
-          {title: 'Editor', value: 'editor'},
-          {title: 'Manager', value: 'manager'}
-        ]
-      }
-    }
+    // {
+    //   title: 'Roles',
+    //   name: 'roles',
+    //   type: 'array',
+    //   of: [{type: 'string'}],
+      // options: {
+      //   layout: 'radio',
+      //   list: [
+      //     {title: 'Designer', value: 'designer'},
+      //     {title: 'Developer', value: 'developer'},
+      //     {title: 'Editor', value: 'editor'},
+      //     {title: 'Manager', value: 'manager'}
+      //   ]
+      // }
+    // }
   ],
   preview: {
     select: {

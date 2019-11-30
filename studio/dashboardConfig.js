@@ -50,7 +50,7 @@ export default {
     {name: 'project-users', layout: {height: 'auto'}},
     {
       name: 'document-list',
-      options: {title: 'Recent projects', order: '_createdAt desc', types: ['sampleProject']},
+      options: {title: 'Стихи', order: '_createdAt desc', types: ['poem']},
       layout: {width: 'medium'}
     }
   ]
