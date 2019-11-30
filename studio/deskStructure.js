@@ -22,6 +22,10 @@ export default () =>
         .schemaType('sampleProject')
         .child(S.documentTypeList('sampleProject').title('Sample projects')),
       S.listItem()
+        .title('Poems')
+        .schemaType('poem')
+        .child(S.documentTypeList('poem').title('Poems')),
+      S.listItem()
         .title('People')
         .schemaType('person')
         .child(S.documentTypeList('person').title('People')),
