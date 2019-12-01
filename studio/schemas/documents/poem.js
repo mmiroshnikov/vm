@@ -6,31 +6,13 @@ export default {
   title: 'Poems',
   type: 'document',
   // initialValue: {
-  //   members: {
-  //     "_id": "cef27bc7-43aa-4f03-b5c5-0f11469b935c",
-  //     "_rev": "OC4cJZw5TqbJip2K1hyCbc",
-  //     "_type": "person",
-  //     "name": "Владимир Мирошников"
-  //   },
+    // members: {_type: 'object', _ref: 'cef27bc7-43aa-4f03-b5c5-0f11469b935c'},
+    // members: {type: 'projectMember'},
   // },
-  // initialValue: {
-  //   members: {
-  //     title: 'Person',
-  //     name: 'person',
-  //     type: '_reference',
-  //     to: {
-  //       "_id": "cef27bc7-43aa-4f03-b5c5-0f11469b935c",
-  //       "_rev": "OC4cJZw5TqbJip2K1hyCbc",
-  //       "_type": "person",
-  //       "name": "Владимир Мирошников"
-  //     }
-  //   },
-  // },
-
   // initialValue: async () => {
   //   debugger
-  //   const response = await axios.get('https://bnu7ijsr.api.sanity.io/v1/data/query/production?query=%5B*%5B_id%20in%20%5B%22cef27bc7-43aa-4f03-b5c5-0f11469b935c%22%5D%5D%5B0...1%5D%7B_id%2C_rev%2C_type%2Cname%2Cimage%7D%5D%5B0...1%5D')
-  //   return {members: response.result[0]}
+  //   const response = await axios.get('https://bnu7ijsr.api.sanity.io/v1/graphql/production/default')
+  //   return {members: response.data[0]}
   // },
   fields: [
     {
